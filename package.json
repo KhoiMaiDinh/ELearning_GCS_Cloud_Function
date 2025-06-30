@@ -1,0 +1,12 @@
+{
+    "name": "gcs-upload-listener",
+    "version": "1.0.0",
+    "main": "index.js",
+    "engines": {
+        "node": "20.x"
+    },
+    "dependencies": {
+        "@google-cloud/tasks": "^6.1.0",
+        "uuid": "^11.1.0"
+    }
+}
