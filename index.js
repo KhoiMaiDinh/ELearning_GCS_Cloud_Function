@@ -8,7 +8,7 @@ exports.onGcsUpload = async (event) => {
     const project = process.env.GCP_PROJECT;
     const location = process.env.TASKS_REGION || "asia-southeast1";
     const queue = process.env.TASKS_QUEUE || "gcs-event-queue";
-    const url = process.env.TARGET_API_URL; 
+    const url = process.env.TARGET_API_URL;
 
     const parent = client.queuePath(project, location, queue);
 
